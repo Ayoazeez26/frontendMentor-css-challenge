@@ -1,0 +1,36 @@
+body {
+  font-family: 'Rubik';
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+}
+.phone-outline {
+  background-color: #F5F3F8;
+  border: 10px solid #FFF;
+  border-radius: 30px;
+  width: 230px;
+  height: 450px;
+}
+.top-cut {
+  width: 120px;
+  height: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top-desc {
+  height: 60px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: rgb(136,56,255);
+  background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+}
+.avatar {
+  border-radius: 50%;
+  border: 1px solid white;
+}
