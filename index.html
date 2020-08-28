@@ -3,10 +3,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chat App Illustration</title>
+  <link href="style/all.css" rel="stylesheet">
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="tailwind.css">
   <link rel="stylesheet" href="style/custom.css">
-  <script src="https://use.fontawesome.com/561f101bff.js"></script>
 
 </head>
 <body>
@@ -14,13 +14,26 @@
     <h1 class="text-2xl bg-green-900">Chat App Illustrator</h1>
     <div class="phone-outline mt-10 mx-auto my-0 relative">
       <div class="top-cut absolute bg-white mx-auto my-0"></div>
-      <div class="top-desc text-white">
-        <i class="fas fa-angle-left"></i>
-        <img class="text-white w-6 h-6" src="images/angle-left-solid.svg" alt="left arrow image">
-        <img class="avatar h-6 w-6" src="images/avatar.jpg" alt="user image">
-        <div class="name-desc">
-          <h5 class="text-sm">Samuel Green</h5>
-          <p class="text-xs font-light">Available to Walk</p>
+      <div class="top-desc flex justify-start items-end px-3 shadow-lg text-white">
+        <i class="fas fa-angle-left mr-2"></i>
+        <img class="avatar h-5 mr-2 w-5" src="images/avatar.jpg" alt="user image">
+        <div class="name-desc mr-2">
+          <h5 class="leading-none">Samuel Green</h5>
+          <p class="font-light leading-none">Available to Walk</p>
+        </div>
+        <p class="ellipsis">&#8942;</p>
+      </div>
+      <div class="chat-screen flex flex-col px-2 py-3">
+        <div class="rec-msg msg-1 mb-2 p-2 w-32">
+          <p class="leading-tight">That sounds great. I'd be happy to discuss more.</p>
+        </div>
+        <div class="rec-msg msg-2 mb-3 p-2 w-32">
+          <p class="leading-tight">Could you send over some pictures of your dog please?</p>
+        </div>
+        <div class="dog-pics flex justify-between h-8 mb-2 self-end w-3/5">
+          <img class="w-8 h-8 rounded-md" src="images/dog-image-1.jpg" alt="first puppy">
+          <img class="w-8 h-8 rounded-md" src="images/dog-image-2.jpg" alt="second puppy">
+          <img class="w-8 h-8 rounded-md" src="images/dog-image-3.jpg" alt="third puppy">
         </div>
       </div>
     </div>

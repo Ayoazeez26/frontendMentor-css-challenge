@@ -25,12 +25,31 @@ body {
   border-top-right-radius: 20px;
   background: rgb(136,56,255);
   background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
-  display: flex;
-  align-items: flex-end;
   padding-bottom: 10px;
-  justify-content: flex-start;
+}
+.top-desc i {
+  margin-bottom: 3px;
 }
 .avatar {
   border-radius: 50%;
   border: 1px solid white;
+}
+.ellipsis {
+  margin-left: auto;
+}
+.name-desc h5 {
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.name-desc p {
+  font-size: 8px;
+  font-weight: 300;
+}
+.chat-screen p {
+  font-size: 8px;
+}
+.rec-msg {
+  background-color: #EDE5F4;
+  color: hsl(276, 55%, 52%);
+  border-radius: 10px;
 }
