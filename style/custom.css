@@ -9,7 +9,7 @@ body {
   border: 10px solid #FFF;
   border-radius: 30px;
   width: 230px;
-  height: 450px;
+  height: 500px;
 }
 .top-cut {
   width: 120px;
@@ -34,7 +34,8 @@ body {
   border-radius: 50%;
   border: 1px solid white;
 }
-.ellipsis {
+.ellipsis,
+.money {
   margin-left: auto;
 }
 .name-desc h5 {
@@ -52,4 +53,26 @@ body {
   background-color: #EDE5F4;
   color: hsl(276, 55%, 52%);
   border-radius: 10px;
+  border-bottom-left-radius: 0;
+}
+.snd-msg {
+  background-color: #FFF;
+  color: hsl(271, 15%, 43%);
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+}
+.rec-msg-rate {
+  color: #FFF;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  background: rgb(136,56,255);
+  background: linear-gradient(90deg, rgba(233,66,255,1) 0%, rgba(136,56,255,1) 100%);
+}
+.radio {
+  border: 1px solid hsl(289, 100%, 72%);
+  border-radius: 50%;
+  background: transparent;
+}
+#money {
+  font-size: 15px;
 }
