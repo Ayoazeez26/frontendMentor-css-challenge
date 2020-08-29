@@ -74,5 +74,18 @@ body {
   background: transparent;
 }
 #money {
-  font-size: 15px;
+  font-size: 14px;
+}
+.input {
+  border-radius: 20px;
+}
+.placeholder {
+  color: hsl(206, 6%, 79%);
+}
+.btn-send {
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+}
+.btn-send i {
+  margin-left: 2px;
 }
