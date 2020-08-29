@@ -4,6 +4,10 @@ body {
   padding: 0;
   background-color: #FAFAFA;
 }
+.placeholder-body {
+  width: 100vw;
+  height: 100vh;
+}
 .phone-outline {
   background-color: #F5F3F8;
   border: 10px solid #FFF;
@@ -88,4 +92,10 @@ body {
 }
 .btn-send i {
   margin-left: 2px;
+}
+.desc-heading {
+  color: hsl(271, 36%, 24%);
+}
+.desc-text {
+  color: hsl(270, 7%, 64%);
 }
