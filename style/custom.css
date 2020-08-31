@@ -5,6 +5,11 @@ body {
   background-color: #FAFAFA;
   overflow-x: hidden;
 }
+.contain {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
 .placeholder-body {
   width: 60%;
   height: 100vh;

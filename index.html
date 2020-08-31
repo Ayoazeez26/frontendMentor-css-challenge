@@ -10,58 +10,60 @@
 
 </head>
 <body>
-  <div class="placeholder-body flex flex-col items-center justify-between md:flex-row">
-    <div class="phone-outline mt-10 mx-auto shadow-2xl my-0 relative z-10 md:mx-0 md:mt-0">
-      <div class="top-cut absolute bg-white mx-auto my-0"></div>
-      <div class="top-desc flex justify-start items-end px-3 shadow-lg text-white">
-        <i class="fas fa-angle-left mr-2"></i>
-        <img class="avatar h-5 mr-2 w-5" src="images/avatar.jpg" alt="user image">
-        <div class="name-desc mr-2">
-          <h5 class="leading-none">Samuel Green</h5>
-          <p class="font-light leading-none">Available to Walk</p>
+  <div class="contain">
+    <div class="placeholder-body flex flex-col items-center justify-between md:flex-row">
+      <div class="phone-outline mt-10 mx-auto shadow-2xl my-0 relative z-10 md:mx-0 md:mt-0">
+        <div class="top-cut absolute bg-white mx-auto my-0"></div>
+        <div class="top-desc flex justify-start items-end px-3 shadow-lg text-white">
+          <i class="fas fa-angle-left mr-2"></i>
+          <img class="avatar h-5 mr-2 w-5" src="images/avatar.jpg" alt="user image">
+          <div class="name-desc mr-2">
+            <h5 class="leading-none">Samuel Green</h5>
+            <p class="font-light leading-none">Available to Walk</p>
+          </div>
+          <p class="ellipsis">&#8942;</p>
         </div>
-        <p class="ellipsis">&#8942;</p>
+        <div class="chat-screen flex flex-col px-2 py-3">
+          <div class="rec-msg msg-1 mb-2 p-2 w-32">
+            <p class="leading-tight">That sounds great. I'd be happy to discuss more.</p>
+          </div>
+          <div class="rec-msg msg-2 mb-3 p-2 w-32">
+            <p class="leading-tight">Could you send over some pictures of your dog please?</p>
+          </div>
+          <div class="dog-pics flex justify-between h-8 mb-2 self-end w-3/5">
+            <img class="w-8 h-8 rounded-md" src="images/dog-image-1.jpg" alt="first puppy">
+            <img class="w-8 h-8 rounded-md" src="images/dog-image-2.jpg" alt="second puppy">
+            <img class="w-8 h-8 rounded-md" src="images/dog-image-3.jpg" alt="third puppy">
+          </div>
+          <div class="snd-msg msg-3 mb-2 self-end p-2 shadow-md w-32">
+            <p class="leading-tight">Here are a few pictures. She's a happy girll</p>
+          </div>
+          <div class="snd-msg msg-4 mb-2 self-end p-2 shadow-md">
+            <p class="leading-tight">Can you make it?</p>
+          </div>
+          <div class="rec-msg msg-5 mb-3 p-2 w-32">
+            <p class="leading-tight">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          </div>
+          <div class="rec-msg-rate msg-6 flex items-center justify-start h-8 mb-3 pl-2 pr-4 w-40">
+            <div class="radio w-4 h-4 mr-3"></div>
+            <p class="font-light">30 minute walk</pcl>
+            <p id="money" class="money font-bold">$29</p>
+          </div>
+          <div class="rec-msg-rate msg-7 flex items-center justify-start h-8 mb-6 pl-2 pr-4 w-40">
+            <div class="radio w-4 h-4 mr-3"></div>
+            <p class="font-light">1 hour walk</pcl>
+            <p id="money" class="money font-bold">$49</p>
+          </div>
+          <div class="input bg-white flex justify-between items-center h-8 w-full">
+            <p class="placeholder ml-4 self-end mb-2">Type a message...</p>
+            <div class="btn-send flex items-center justify-center w-6 h-6 mr-1"><i class="fas fa-angle-right text-white"></i></div>
+          </div>
+        </div>
       </div>
-      <div class="chat-screen flex flex-col px-2 py-3">
-        <div class="rec-msg msg-1 mb-2 p-2 w-32">
-          <p class="leading-tight">That sounds great. I'd be happy to discuss more.</p>
-        </div>
-        <div class="rec-msg msg-2 mb-3 p-2 w-32">
-          <p class="leading-tight">Could you send over some pictures of your dog please?</p>
-        </div>
-        <div class="dog-pics flex justify-between h-8 mb-2 self-end w-3/5">
-          <img class="w-8 h-8 rounded-md" src="images/dog-image-1.jpg" alt="first puppy">
-          <img class="w-8 h-8 rounded-md" src="images/dog-image-2.jpg" alt="second puppy">
-          <img class="w-8 h-8 rounded-md" src="images/dog-image-3.jpg" alt="third puppy">
-        </div>
-        <div class="snd-msg msg-3 mb-2 self-end p-2 shadow-md w-32">
-          <p class="leading-tight">Here are a few pictures. She's a happy girll</p>
-        </div>
-        <div class="snd-msg msg-4 mb-2 self-end p-2 shadow-md">
-          <p class="leading-tight">Can you make it?</p>
-        </div>
-        <div class="rec-msg msg-5 mb-3 p-2 w-32">
-          <p class="leading-tight">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-        </div>
-        <div class="rec-msg-rate msg-6 flex items-center justify-start h-8 mb-3 pl-2 pr-4 w-40">
-          <div class="radio w-4 h-4 mr-3"></div>
-          <p class="font-light">30 minute walk</pcl>
-          <p id="money" class="money font-bold">$29</p>
-        </div>
-        <div class="rec-msg-rate msg-7 flex items-center justify-start h-8 mb-6 pl-2 pr-4 w-40">
-          <div class="radio w-4 h-4 mr-3"></div>
-          <p class="font-light">1 hour walk</pcl>
-          <p id="money" class="money font-bold">$49</p>
-        </div>
-        <div class="input bg-white flex justify-between items-center h-8 w-full">
-          <p class="placeholder ml-4 self-end mb-2">Type a message...</p>
-          <div class="btn-send flex items-center justify-center w-6 h-6 mr-1"><i class="fas fa-angle-right text-white"></i></div>
-        </div>
+      <div class="page-desc mt-16 mx-auto my-0 w-4/5 md:w-1/2 text-center md:text-left mb-16 z-10 md:mx-0">
+        <h1 class="desc-heading text-4xl font-medium mb-4">Simple booking</h1>
+        <p class="desc-text leading-7">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
       </div>
-    </div>
-    <div class="page-desc mt-16 mx-auto my-0 w-4/5 md:w-1/2 text-center md:text-left mb-16 z-10 md:mx-0">
-      <h1 class="desc-heading text-4xl font-medium mb-4">Simple booking</h1>
-      <p class="desc-text leading-7">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
     </div>
   </div>
 </body>
