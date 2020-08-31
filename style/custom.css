@@ -28,7 +28,7 @@ body {
   border-bottom-left-radius: 250px;
   border-bottom-right-radius: 250px;
 }
-.page-desc::after {
+.placeholder-body::after {
   content: '';
   position: absolute;
   bottom: 0px;
@@ -144,7 +144,7 @@ body {
     width: 400px;
     height: 900px;
   }
-  .page-desc::after {
+  .placeholder-body::after {
     right: -206px;
     width: 524px;
     height: 700px;
@@ -152,6 +152,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .contain {
+    overflow: hidden!important;
+  }
   .placeholder-body {
     width: 100%;
     height: auto;
@@ -161,8 +164,21 @@ body {
   }
   .placeholder-body::before {
     top: -388px;
-    left: -219px;
+    left: -273px;
     width: 400px;
     height: 900px;
+  }
+  .placeholder-body::after {
+    right: 0px;
+    width: 183px;
+    height: 441px;
+    bottom: -50px;
+    border-top-right-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contain {
+      overflow: hidden!important;
   }
 }
