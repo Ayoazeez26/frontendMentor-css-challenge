@@ -110,7 +110,7 @@ body {
   border-radius: 50%;
   background: transparent;
 }
-#money {
+.dollar {
   font-size: 14px;
 }
 .input {
